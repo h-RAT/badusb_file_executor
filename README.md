@@ -13,4 +13,4 @@
 
 
 
-QWERTY / AZERTY Keyboard : use https://www.dcode.fr/chiffre-changement-clavier to convert "paylaod.txt" in QWERTY / AZERTY.
+QWERTY / AZERTY Keyboard : use https://www.dcode.fr/chiffre-changement-clavier to convert "payload.txt" in QWERTY / AZERTY.
